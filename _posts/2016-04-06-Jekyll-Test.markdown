@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Jekyll Test"
-date:   2016-04-06: 12:10:59 +0800
+title:  "Jekyll Test!"
+date:   2016-04-06 12:10:59 +0800
 categories: Test update
 ---
 
