@@ -1,21 +1,47 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+permalink: /:year/:month/:day/:title.html
+# paginate: 10
+markdown: redcarpet
 
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+# 作者信息
+author: 
+  name: leopardpan
+  email: baixin.pan@tendcloud.com
+  link: voyagelab.github.io
+  weibo: 
+  github: https://github.com/leopardpan
+  music: 
+  linkedin: 
 
-# Build settings
-markdown: kramdown
+# 站点信息
+title: leopard
+description: My team blog
+url: voyagelab.github.io
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/img/deer3.png
+favicon: /public/img/deer3.png
+
+# google analytics 设置
+ga:
+  id: 
+  url: 
+
+# disqus 设置
+disqus:
+  shortname: 
+
+# 主题设置，自动激活某个标签
+active: iOS
+
+# 首页除了最新文章外显示分类
+cates: 
+  - iOS
+  - Android
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
