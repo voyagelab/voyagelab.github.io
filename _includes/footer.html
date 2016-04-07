@@ -1,25 +1,15 @@
-<div style="position:fixed;right:15px;top:62px;">
-  <button id="content_btn" class="btn btn-primary" style="width:43px; height:34px;">
-    <i class="fa fa-lg fa-plus"></i>
-  </button>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+            <p class="copyright">&copy;{{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="https://github.com/scotte/jekyll-clean">Scott Emmons</a>
+            under
+            <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a></p>
+        </div>
+    </div>
 </div>
-<div style="position:fixed;right:15px;top:20px;">
-  <button id="nav_btn" class="btn btn-primary">
-    <i class="fa fa-lg fa-navicon"></i>
-  </button>
-</div>
-<script type="text/javascript" src="/public/js/jquery.js"></script>
-<script type="text/javascript" src="/public/js/bootstrap.js"></script>
-<script src="/public/js/jquery.pjax.js"></script>
-<script src="/public/js/prettify/prettify.js"></script>
-<script src="/public/js/base.js"></script>
-<!--
-<script src="/public/js/jquery.scrollUp.js"></script>
--->
-<script>
-    $('a[href="#{{ site.active }}"]').tab('show');
-</script>
 
+{% include disqus-counts.html %}
+{% include analytics.html %}
 
-<!--button是右上方导航和显示目录的按钮-->
-
+</body>
+</html>
