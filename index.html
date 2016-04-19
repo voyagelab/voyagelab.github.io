@@ -10,8 +10,11 @@ layout: default
           <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a></p>
         {% endif %}
         <div class="content">
-          {{ post.content ||split:'<!-- more -->' | first }}
+          {{ post.content || split:'<!-- more -->' | first }}
         </div>
+        <div class = "read_more">
+          <a class="fa fa-link" href="{{ BASE_PATH }}{{ post.url }}">  查看全文&hellip;</a>
+        </div>        
     </div>
 </div>
 {% endfor %}
