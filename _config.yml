@@ -1,10 +1,10 @@
 name: voyagelab
-description: TalkingDataSDK Blog
+description: 
 meta_description: 
 
 markdown: kramdown
-logo: false
-paginate: 5
+logo: true  
+paginate: 10 
 baseurl: /
 domain_name: 'http://leopan.cn/'
 google_analytics: 'UA-XXXXXXXX-X'
