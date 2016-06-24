@@ -1,34 +1,16 @@
-# Jekyll configuration
+name: voyagelab
+description: TalkingDataSDK Blog
+meta_description: "TalkingDataSDK Blog"
 
-name: voyage
-description: voyagelab
-
-# url is currently only used only for the RSS feed in feed.xml
-url: http://voyagelab.github.io/
-
-# baseurl will often be '', but for a project page on gh-pages, it needs to
-# be the project name.
-# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
-#     run it like so: jekyll serve --baseurl=''
-baseurl: 
-
-# This can be '' to hide the Github nav button
-github: ''
-
-# Set this to your UA-# value, or '' to disable the block completely
-gaaccount: ''
-
-# Set this to your disqus shortname to enable comments. Note that the 'comments'
-# setting below must also be true. Individual posts can override 'comments' to
-# disable on a post-by-post basis
-disqus: ''
-comments: true
-
-permalink: /:year/:month/:title
-paginate: 5
-
-highlighter: rouge
 markdown: kramdown
-gems: ['jekyll-paginate']
+# highlighter: pygments
+logo: false
+paginate: 5
+baseurl: /
+domain_name: 'http://leopan.cn/'
+google_analytics: 'UA-XXXXXXXX-X'
+gems: [jekyll-paginate]
 
-exclude: ['README.md', 'LICENSE']
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'TalkingData'
