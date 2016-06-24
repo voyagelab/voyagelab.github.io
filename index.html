@@ -3,6 +3,7 @@ layout: default
 title: Home
 cover: false 
 about: 'about.html'
+archive: 'Archive.html'
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -13,14 +14,26 @@ about: 'about.html'
                 </a>
             {% endif %}
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
             </h2>
+            <div class="navbar">
+              <div class="navbar-inner">
+               <div class="nav-narrow">
+                  <ul class="nav">
+                    <li><a href="/">home</a></li>
+                    <li><a href="/archive">archive</a></li>       
+                    <li><a href="/">tag</a></li>
+                    <li><a href="/about">about</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>

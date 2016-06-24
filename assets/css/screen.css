@@ -680,9 +680,14 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .no-cover.main-header {
+    /*导航栏吧背景*/
     min-height: 160px;
     max-height: 40%;
     background: #f5f8fa;
+    background-size: cover;
+    background-position: center;
+    /*background-image: url(../images/backgroudImage.jpg);*/
+
 }
 
 .no-cover .page-title {
@@ -1774,6 +1779,18 @@ body:not(.post-template) .post-title {
 }
 
 
+/*导航条样式*/
+.navbar{
+    
+}
+.nav-narrow li {
+    list-style: none;
+    display: inline-block;
+}
+.nav-narrow li a {
+    text-decoration: none;
+    padding: 0 10px;
+}
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
