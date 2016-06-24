@@ -1,9 +1,8 @@
 name: voyagelab
 description: TalkingDataSDK Blog
-meta_description: "TalkingDataSDK Blog"
+meta_description: 
 
 markdown: kramdown
-# highlighter: pygments
 logo: false
 paginate: 5
 baseurl: /
