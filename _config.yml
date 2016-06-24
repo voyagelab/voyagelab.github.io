@@ -25,7 +25,7 @@ disqus: ''
 comments: true
 
 permalink: /:year/:month/:title
-paginate: 3
+paginate: 5
 
 highlighter: rouge
 markdown: kramdown
