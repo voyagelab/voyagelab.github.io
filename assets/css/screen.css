@@ -1793,7 +1793,7 @@ body:not(.post-template) .post-title {
 }
 .nav-narrow li a {
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
