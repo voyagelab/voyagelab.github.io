@@ -1,7 +1,7 @@
 ---
-layout: default
-disqus: false
-archive: false
+layout: default  
+disqus: true   
+archive: flase    
 post_class: post-template
 ---
 
@@ -81,9 +81,21 @@ post_class: post-template
             <!-- Share links section -->
             {% include share.html %}
 
-            <!-- Disqus comments -->
-            {% if page.disqus %}
+            <!-- Disqus comments 原始的 -->
+           <!--  {% if page.disqus %}
                 {% include disqus.html %}
+            {% endif %} -->
+
+            <!-- Add Disqus Comments  后来添加测试的-->
+            {% assign disqus = layout.disqus %}
+            {% if page.disqus == false or page.disqus == true %}
+              {% assign disqus = page.disqus %}
+            {% endif %}
+
+            {% if site.disqus %}
+              {% if disqus and site.disqus != '-' %}
+                {% include disqus.html %}
+              {% endif %}
             {% endif %}
 
         </footer>

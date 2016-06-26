@@ -8,6 +8,9 @@ paginate: 10
 baseurl: /
 domain_name: 'http://leopan.cn/'
 google_analytics: 'UA-XXXXXXXX-X'
+
+disqus: voyagelab     
+
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
