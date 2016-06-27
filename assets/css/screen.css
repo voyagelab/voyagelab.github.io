@@ -192,8 +192,7 @@ body {
 }
 
 ::selection {
-    /*background: #D6EDFF;*/
-    background: #8B2252;
+    background: #D6EDFF;
 }
 
 h1, h2, h3,
@@ -205,6 +204,7 @@ h4, h5, h6 {
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     font-family: "Open Sans", sans-serif;
+    
 }
 
 h1 {
@@ -220,6 +220,10 @@ h2 {
 
 h3 {
     font-size: 3rem;
+    text-indent: 10px;
+    background: #F4F4F4;
+    border-radius: 10px;
+
 }
 
 h4 {
@@ -228,6 +232,7 @@ h4 {
 
 h5 {
     font-size: 2rem;
+
 }
 
 h6 {
@@ -301,6 +306,7 @@ blockquote {
     margin: 1.75em 0 1.75em -2.2em;
     padding: 0 0 0 1.75em;
     border-left: #CD2626 0.4em solid;
+    background: #F4F4F4;
 }
 
 blockquote p {
@@ -335,7 +341,8 @@ code, tt {
     border: #E3EDF3 1px solid;
     /*highlight background color, 高亮背景颜色*/
     background: #E6E6FA;
-    border-radius: 2px;
+    border-radius: 5px;
+
 }
 
 pre {
