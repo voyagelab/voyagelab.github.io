@@ -303,9 +303,9 @@ hr {
 blockquote {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.75em 0 1.75em -2.2em;
-    padding: 0 0 0 1.75em;
-    border-left: #CD2626 0.4em solid;
+    margin: 10px -10px 10px -10px;
+    padding: 0 0 0 10px;
+    border-left: #CD2626 6px solid;
     background: #F4F4F4;
 }
 
@@ -736,9 +736,12 @@ margin on the iframe, cause it breaks stuff. */
     max-width: 710px;
     margin: 4rem auto;
     padding-bottom: 4rem;
+    padding-left: 10px;
+    padding-right: 10px; 
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
     hyphens: auto;
+    background: #FCFCFC; 
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -757,7 +760,7 @@ margin on the iframe, cause it breaks stuff. */
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
-    box-shadow: #FFF 0 0 0 5px;
+    box-shadow: #9AC0CD 0 0 0 5px;
 }
 
 body:not(.post-template) .post-title {
