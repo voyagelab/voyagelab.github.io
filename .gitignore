@@ -1,6 +1,7 @@
 _site
+node_modules
+npm-debug.log
 .DS_Store
-.idea
-*.swp
-.sass-cache
-
+*/.DS_Store
+*/*/.DS_Store
+*.sh

@@ -1,1 +1,15 @@
-基于Jekyll搭建的Team博客, 如果你想使用此博客的模板，直接clone就，在_posts下删除原有的文章，记得 star。
+
+## TalkingData SDK 技术博客
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+#### 感谢：
+[Huxpro](https://github.com/Huxpro/huxpro.github.io) 提供博客模板。   
