@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 符号化iOS Crash文件
+title: 符号化 iOS Crash 文件
 date: 2016-09-01 
 tags: 教程   
 author: 柏信  

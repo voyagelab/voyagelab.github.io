@@ -1,6 +1,6 @@
 ---
 layout: post
-title: iOS开发迎来机器学习的春天---TensorFlow 
+title: iOS 开发迎来机器学习的春天--- TensorFlow 
 date: 2016-07-07 
 tags: 调研  
 author: 柏信、永超
@@ -17,20 +17,14 @@ author: 柏信、永超
 > 想象一下，某一天你身处一个完全陌生的环境，周围都是陌生的事物，而运行在iPhone的某个APP却对这个环境了如指掌，你要做的就是打开这个APP，输入你需要了解的事物，iPhone告诉你这个事物的信息，你也就没有了陌生事物了。世界就在眼前！
 
 如下图：
-<div align="center">
-	<img src="/img/tfimg/ck.jpg" height="300" width="160" />
-　　<img src="/img/tfimg/mouse2.jpg" height="300" width="160" />
-　　<img src="/img/tfimg/wb.jpg" height="300" width="160" />
-</div> 
+　　<img src="/img/tfimg/image02.png" height="300" width="560" />
 
 上面物体的识别准确率还是蛮不错的，基本识别出了键盘（49%的概率）、鼠标（46%的概率）和水杯（24%的概率）。
 
 但是在某些事物的识别准确度方便却差强人意，比如下图：    
 
-<div align="center">
-　　<img src="/img/tfimg/ipod2.jpg" height="300" width="160" />
-　　<img src="/img/tfimg/ipod1.jpg" height="300" width="160" />    
-</div> 
+　　<img src="/img/tfimg/image01.png" height="300" width="460" />
+
 　　iPhone 6被识别成了iPod（59%的概率），而iPod的却是不怎么敢认（10%的概率）。想想最崩溃的估计是iPhone 6了，身价直接被降了好几个等级。
 
 <div align="center">

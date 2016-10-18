@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TensorFlow 简介"
+title: " TensorFlow 简介"
 date: 2016-07-20 
 tags: 机器学习   
 author: 小辉  
