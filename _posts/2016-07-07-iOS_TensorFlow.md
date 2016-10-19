@@ -145,6 +145,7 @@ error: Xcode 7.3.0 or later is required.
 
 如果Xcode是7.3，并且没有条件更新Xcode，你可以修改`tensorflow/contrib/makefile/compile_ios_tensorflow.sh` 里的`REQUIRED_XCODE_VERSION=7.3.0`，为`REQUIRED_XCODE_VERSION=7.3`。（这样修改，目前还不确定会不会带来一些其他影响，最好是升级你的Xcode）
 
+想了解TensorFlow在Android平台的使用可以，看看 TalkingData SDK Team 另一篇的技术博客[Tensorflow 在 Android 平台的移植](http://talkingdata.me/2016/10/18/Android_Tensorflow/)
 
 ### 四、参考链接 
  
