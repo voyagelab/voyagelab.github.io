@@ -2,7 +2,7 @@
 layout: post
 title: Tensorflow 在 Android 平台的移植
 date: 2016-10-18 
-tags: 技术   
+tags: 机器学习  
 author: 小辉  
 ---
 
