@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 基于手机传感器数据使用 CNN 识别用户行为的 Tensroflow 实现
-date: 2016-10-18 
+date: 2016-11-08 
 tags: 机器学习  
 author: 小辉  
 ---
@@ -9,7 +9,7 @@ author: 小辉
 
 智能移动设备、特别是手机，搭载了越来越多、越来越精确的传感器，利用这些传感器的数据，结合机器学习甚至深度学习的能力，可以识别出用户的行为，而用户的行为数据可以被用于像 UBI、反作弊解决方案、健身类 App 等很多领域，也可以作为 Real time customer engagement 的重要参考数据。
 
-文章 [Implementing a CNN for Human Activity Recognition in Tensorflow][http://aqibsaeed.github.io/2016-11-04-human-activity-recognition-cnn/] 介绍了在一个公开传感器数据集上面，使用 Tensorflow 实现一个 CNN 进行用户行为识别的方案，本文就是在阅读和测试这个方案过程中整理出来的。
+文章 [Implementing a CNN for Human Activity Recognition in Tensorflow](http://aqibsaeed.github.io/2016-11-04-human-activity-recognition-cnn/) 介绍了在一个公开传感器数据集上面，使用 Tensorflow 实现一个 CNN 进行用户行为识别的方案，本文就是在阅读和测试这个方案过程中整理出来的。
 
 ### TensorFlow 简介
 
