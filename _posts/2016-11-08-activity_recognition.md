@@ -6,7 +6,6 @@ tags: 机器学习
 author: 小辉  
 ---
 
-
 智能移动设备、特别是手机，搭载了越来越多、越来越精确的传感器，利用这些传感器的数据，结合机器学习甚至深度学习的能力，可以识别出用户的行为，而用户的行为数据可以被用于像 UBI、反作弊解决方案、健身类 App 等很多领域，也可以作为 Real time customer engagement 的重要参考数据。
 
 文章 [Implementing a CNN for Human Activity Recognition in Tensorflow](http://aqibsaeed.github.io/2016-11-04-human-activity-recognition-cnn/) 介绍了在一个公开传感器数据集上面，使用 Tensorflow 实现一个 CNN 进行用户行为识别的方案，本文就是在阅读和测试这个方案过程中整理出来的。
@@ -355,55 +354,6 @@ def plot_confusion_matrix(cm, title='Normalized Confusion matrix', cmap=plt.cm.g
     plt.xlabel('Predicted label')
     plt.show()
 
-def plot_metrics(y_test, predicted):
-    fpr = dict()
-    tpr = dict()
-    roc_auc = dict()
-    y_test = label_binarize(y_test, classes=[0, 1, 2, 3, 4, 5])
-    predicted = label_binarize(predicted, classes=[0, 1, 2, 3, 4, 5])
-
-    n_classes = y_test.shape[1]
-
-    print "n_classes:", n_classes
-
-    for i in range(n_classes):
-        fpr[i], tpr[i], _ = roc_curve(y_test[:, i], predicted[:, i])
-        roc_auc[i] = auc(fpr[i], tpr[i])
-
-    # Compute micro-average ROC curve and ROC area
-    fpr["micro"], tpr["micro"], _ = roc_curve(y_test.ravel(), predicted.ravel())
-    roc_auc["micro"] = auc(fpr["micro"], tpr["micro"])
-
-    # Plot of a ROC curve for a specific class
-    plt.figure()
-    plt.plot(fpr[2], tpr[2], label='ROC curve (area = %0.2f)' % roc_auc[2])
-    plt.plot([0, 1], [0, 1], 'k--')
-    plt.xlim([0.0, 1.0])
-    plt.ylim([0.0, 1.05])
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title('Receiver operating characteristic example')
-    plt.legend(loc="lower right")
-    plt.show()
-
-    # Plot ROC curve
-    plt.figure()
-    plt.plot(fpr["micro"], tpr["micro"],
-             label='micro-average ROC curve (area = {0:0.2f})'
-                   ''.format(roc_auc["micro"]))
-    for i in range(n_classes):
-        plt.plot(fpr[i], tpr[i], label='ROC curve of class {0} (area = {1:0.2f})'
-                                       ''.format(i, roc_auc[i]))
-
-    plt.plot([0, 1], [0, 1], 'k--')
-    plt.xlim([0.0, 1.0])
-    plt.ylim([0.0, 1.05])
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title('Some extension of Receiver operating characteristic to multi-class')
-    plt.legend(loc="lower right")
-    plt.show()
-
 def test_har():
     y_true = np.load("y_true.npy")
     y_pred = np.load("y_pred.npy")
@@ -412,21 +362,12 @@ def test_har():
     print "f1_score", f1_score(y_true, y_pred, average='weighted')
     print "confusion_matrix"
     print confusion_matrix(y_true, y_pred)
-    plot_metrics(y_true, y_pred)
     plot_confusion_matrix(confusion_matrix(y_true, y_pred))
 
     if __name__ == "__main__":
         test_har()
 
 ```
-
-总体 ROC：
-
-![](http://i1.piimg.com/562611/f02e9cd12fa406ac.png)
-
-每种行为的 ROC：
-
-![](http://i1.piimg.com/562611/30d0f9375b4eea75.png)
 
 Confusion matrix:
 
