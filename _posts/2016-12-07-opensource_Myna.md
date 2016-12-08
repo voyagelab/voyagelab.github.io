@@ -3,7 +3,7 @@ layout: post
 title: TalkingData开源智能设备情景感知框架“Myna”
 date: 2016-12-07 
 tags: 机器学习  
-author: 余多   
+author: 俞多   
 ---
 
 
