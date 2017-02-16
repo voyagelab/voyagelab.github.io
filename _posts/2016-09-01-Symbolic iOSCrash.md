@@ -34,7 +34,7 @@ author: 柏信
 
 ![](/img/dSYM/04.png)   
 
-把Demo. demo.app.dSYM 文件拖进去后，会让你选择对应的编译类型，编译类型在，TalkingData的错误详情下面有：`Architecture: arm64` ，然后选中dsYM文件的UUID就会自动填进去。
+把Demo的demo.app.dSYM 文件拖进去后，会让你选择对应的编译类型，编译类型在，TalkingData的错误详情下面有：`Architecture: arm64` ，然后选中dsYM文件的UUID就会自动填进去。
 
 注意：dSYM 应用显示的UUID 和 TalingData 错误详情的UUID必须是一致的才行。
 
