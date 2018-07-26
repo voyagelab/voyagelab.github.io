@@ -1,8 +1,8 @@
 # Site settings
-title: voyagelab 
+title: voyagelab
 SEOTitle: voyagelab
-header-img: img/home-bg.jpg
-email: baixin.pan@tendcloud.com
+header-img: img/home-bg3.jpg
+email: duo.yu@tendcloud.com
 description: "技术博客, 移动分析, iOS开发, Android开发, Swift, 机器学习"
 keyword: "TalkingData, SDK, voyagelab , TalkingDataSDK"
 url: "http://leopan.cn"              # your host, for absolute URL
@@ -40,16 +40,6 @@ gems: [jekyll-paginate,jekyll-sitemap]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
-
-
-# Disqus settings
-# disqus_username: voyagelab
-
-# Duoshuo settings
-duoshuo_username: voyagelab  
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
