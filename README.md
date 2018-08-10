@@ -4,4 +4,4 @@
 
 ## 致谢
 
-本博客外观基于 [mzlogin.github.io](https://github.com/mzlogin/mzlogin.github.io) 修改，感谢！
+本博客外观基于 [mzlogin.github.io](https://github.com/mzlogin/mzlogin.github.io) 修改，感谢作者做出的杰出贡献！
