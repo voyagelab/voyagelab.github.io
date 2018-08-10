@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://voyagelab.github.io/
+url: https://robinchao.github.io/TeamBlog/
 date_format: "ordinal"
 title: 打码人生
 subtitle: "敲代码也是一种生活态度"
