@@ -2,10 +2,10 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://robinchao.github.io/TeamBlog
+url: http://voyagelab.github.io
 date_format: "ordinal"
-title: 打码人生
-subtitle: "敲代码也是一种生活态度"
+title: TD SDK 技术博客
+subtitle: "Talk is cheap, show me the code."
 description: "SDK的个人博客"
 keywords: SDK，TalkingData
 timezone: Asia/Shanghai
