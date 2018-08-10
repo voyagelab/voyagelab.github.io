@@ -2,10 +2,9 @@
 layout: post
 title: 机器学习模型评估指标
 date: 2016-12-23 
-tags: 机器学习  
+categories: 机器学习  
 author: 永超   
 ---
-
 
 机器学习(ML),自然语言处理(NLP),信息检索(IR)等领域,评估(Evaluation)是一个必要的工作,而其评价指标往往有如下几点:准确率(Accuracy),精确率(Precision),召回率(Recall)和F1-Measure。
 

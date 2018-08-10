@@ -2,7 +2,7 @@
 layout: post
 title: 基于手机传感器数据使用 CNN 识别用户行为的 Tensroflow 实现
 date: 2016-11-08 
-tags: 机器学习  
+categories: 机器学习  
 author: 小辉  
 ---
 

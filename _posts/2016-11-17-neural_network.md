@@ -2,7 +2,7 @@
 layout: post
 title: 神经网络快速入手
 date: 2016-11-17 
-tags: 机器学习  
+categories: 机器学习  
 author: 永超  
 ---
 

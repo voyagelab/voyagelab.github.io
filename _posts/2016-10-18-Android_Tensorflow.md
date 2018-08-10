@@ -2,10 +2,11 @@
 layout: post
 title: Tensorflow 在 Android 平台的移植
 date: 2016-10-18 
-tags: 机器学习   
+categories: 机器学习   
 author: 小辉  
 ---
 
+探讨Google开源深度学习框架TensorFlow如何在Android平台进行移植和使用的技巧和实践。
 
 ### TensorFlow 简介
 

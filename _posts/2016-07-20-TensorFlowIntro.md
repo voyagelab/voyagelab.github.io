@@ -1,14 +1,16 @@
 ---
 layout: post
-title: " TensorFlow 简介"
-date: 2016-07-20 
-tags: 机器学习   
+title: TensorFlow 简介
+date: 2016-07-20
+categories: 机器学习   
 author: 小辉  
 ---
 
+深度解读TensorFlow的产生背景、对未来的影响意义等，值得深入阅读。
+
+### TensorFlow 产生背景
 
 2015 年 11 月 9 日，Google Research 发布了文章：[TensorFlow - Google’s latest machine learning system, open sourced for everyone](https://research.googleblog.com/2015/11/tensorflow-googles-latest-machine_9.html)，正式宣布其新一代机器学习系统开源。
-
 至于 Google 为什么要开源 TensorFlow，官方的说法是：
 
 > If TensorFlow is so great, why open source it rather than keep it proprietary? The answer is simpler than you might think: We believe that machine learning is a key ingredient to the innovative products and technologies of the future. Research in this area is global and growing fast, but lacks standard tools. By sharing what we believe to be one of the best machine learning toolboxes in the world, we hope to create an open standard for exchanging research ideas and putting machine learning in products. Google engineers really do use TensorFlow in user-facing products and services, and our research group intends to share TensorFlow implementations along side many of our research publications.
