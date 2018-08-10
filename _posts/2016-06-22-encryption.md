@@ -2,7 +2,7 @@
 layout: post
 title: "移动端的加解密"
 date: 2016-06-22
-tags: Android       
+categories: Android       
 author: 鹏程
 --- 
 

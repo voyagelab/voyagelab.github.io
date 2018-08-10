@@ -1,0 +1,20 @@
+- name: TalkingData - 用数据的心智去超越
+  url: https://www.talkingdata.com/
+
+- name: TalkingData University - 创新人才培养模式，创造数据科学价值
+  url: https://edu.talkingdata.com/home
+
+- name: Marketing Intelligence - 免费公开大数据查询平台
+  url: http://mi.talkingdata.com/
+
+- name: inMap - 大数据地理信息可视化框架
+  url: https://github.com/TalkingData/inmap/
+
+- name: Fregata - 大规模机器学习算法库
+  url: https://github.com/TalkingData/Fregata
+
+- name: Myna - Android 平台情景感知框架
+  url: https://github.com/TalkingData/Myna
+
+- name: OWL - 分布式监控系统
+  url: https://github.com/TalkingData/owl 

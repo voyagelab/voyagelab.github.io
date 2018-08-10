@@ -1,71 +1,121 @@
-# Site settings
-title: voyagelab
-SEOTitle: voyagelab
-header-img: img/home-bg3.jpg
-email: duo.yu@tendcloud.com
-description: "技术博客, 移动分析, iOS开发, Android开发, Swift, 机器学习"
-keyword: "TalkingData, SDK, voyagelab , TalkingDataSDK"
-url: "http://leopan.cn"              # your host, for absolute URL
-baseurl: ""                          # for example, '/blog' if your blog hosted on 'host/blog'
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: http://voyagelab.github.io
+date_format: "ordinal"
+title: TD SDK 技术博客
+subtitle: "Talk is cheap, show me the code."
+description: "SDK的个人博客"
+keywords: SDK，TalkingData
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 6
 
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: TalkingData SDK Team
+organization: TalkingData.com
+organization_url: https://www.talkingdata.com
+github_username: TalkingData
+location: BeiJing, China
+# email: chumpma@gmail.com
 
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
 
-# SNS settings
-RSS: false
-weibo_username:     TalkingData
-zhifu_zhuanlan_username:  talkingdata  
-github_username:    voyagelab
+  -
+    href: /categories/
+    label: 分类
 
+  -
+    href: /wiki/
+    label: 维基
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+  -
+    href: /links/
+    label: 链接
 
+  # -
+  #   href: /about/
+  #   label: 关于
 
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate,jekyll-sitemap]
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
 
-
-
-
-# Analytics settings
-# Baidu Analytics
-ba_track_id: 
-# Google Analytics
-ga_track_id: 'UA-xxxxxx-xx'            # Format: UA-xxxxxx-xx
-ga_domain: 
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: ""
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Friends
-friends: [
+plugins: [
+    jekyll-github-metadata,
+    rouge,
+    jekyll-paginate,
+    jekyll-sitemap,
+    jekyll-feed,
+    jemoji
 ]
+
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: TalkingData/Myna
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: 
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: 
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: 
+    repo: 
+    oauth:
+        client_id: 
+        client_secret: 
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: 
+    repo: 
+    clientID: 
+    clientSecret: 
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: 

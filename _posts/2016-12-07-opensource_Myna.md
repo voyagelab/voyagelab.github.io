@@ -2,10 +2,11 @@
 layout: post
 title: TalkingData开源智能设备情景感知框架“Myna”
 date: 2016-12-07 
-tags: 机器学习  
+categories: 机器学习  
 author: 俞多   
 ---
 
+TalkingData倾情打造的智能设备情景感知框架“Myna”，针对不同的使用场景，感知用户行为。
 
 ### 什么是情景
 

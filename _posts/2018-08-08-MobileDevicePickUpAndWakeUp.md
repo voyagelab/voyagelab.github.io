@@ -2,7 +2,7 @@
 layout: post
 title: "移动设备抬起唤醒功能"
 date: 2018-08-08 
-tags: 机器学习
+categories: 机器学习
 author: 俞多
 ---
 
