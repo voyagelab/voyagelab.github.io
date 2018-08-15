@@ -3,7 +3,7 @@ layout: post
 title: 移动端机器学习框架SNPE简介与实践
 date: 2017-12-27
 categories: 机器学习
-author: 刘晓飞
+author: 韩广利
 --- 
 
 ### NPE SDK能够帮助开发者做什么事情？
